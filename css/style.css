@@ -25,6 +25,9 @@ font-style: italic;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background-color: #0F0F0F;
 	color: #ffffff;
@@ -184,14 +187,14 @@ body > div:nth-child(6) {
 }
 #gallery > div.owl-nav > button.owl-prev {
 	position: absolute;
-    top: 35%;
+    top: 45%;
 	left: 15px;
 	color: #ffffff;
 	font-size: 40px;
 }
 #gallery > div.owl-nav > button.owl-next {
 	position: absolute;
-    top: 35%;
+    top: 45%;
 	right: 15px;
 	color: #ffffff;
 	font-size: 40px;
