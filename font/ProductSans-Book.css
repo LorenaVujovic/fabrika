@@ -1,0 +1,9 @@
+/* Webfont: ProductSans-Book */@font-face {
+    font-family: 'ProductSans';
+    src: url('Product Sans-Book.woff2') format('woff2'), /* Modern Browsers */
+         url('Product Sans-Book.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
