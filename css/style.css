@@ -168,7 +168,7 @@ body {
 	margin-right: -15px;
 }
 .w-xl-75 {
-	width: 75%;
+	width: 75% !important;
 }
 .ml-xl-auto {
 	margin-left: auto;
@@ -201,7 +201,7 @@ body > div:nth-child(6) {
 }
 @media only screen and (max-width: 1200px) {
 	.w-xl-75 {
-		width: unset !important;
+		width: 98% !important;
 	}
 	.ml-xl-auto {
 		margin-left: unset;
@@ -216,5 +216,19 @@ body > div:nth-child(6) {
 	}
 	.w-lg-50 {
 		width: 80%;
+	}
+	#gallery > div.owl-nav > button.owl-prev {
+		position: absolute;
+		top: 33%;
+		left: 15px;
+		color: #ffffff;
+		font-size: 40px;
+	}
+	#gallery > div.owl-nav > button.owl-next {
+		position: absolute;
+		top: 33%;
+		right: 15px;
+		color: #ffffff;
+		font-size: 40px;
 	}
 }
